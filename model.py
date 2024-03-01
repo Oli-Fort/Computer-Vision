@@ -39,8 +39,8 @@ def save_model(mdl, file_path):
 file_dir = os.path.dirname(__file__)
 
 # Paths for the training set, test set, and model are created
-training_set_path = os.path.join(file_dir, 'data')
-test_set_path = os.path.join(file_dir, 'train')
+training_set_path = os.path.join(file_dir, 'train_set')
+test_set_path = os.path.join(file_dir, 'test_set')
 model_path = os.path.join(file_dir, 'model_cnn.keras')
 
 # The training and test sets are loaded.
